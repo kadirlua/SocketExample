@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{454ea3ea-177e-4475-90c6-67ea99319386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\general">
+      <UniqueIdentifier>{645448c7-58f3-4b3b-8b68-ab114644830b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\network">
+      <UniqueIdentifier>{56bbb4ed-0926-4971-85ce-2797a09848cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SocketExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pcout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\general\BaseException.cpp">
+      <Filter>sdk\general</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\general\SocketException.cpp">
+      <Filter>sdk\general</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\network\SecureSocket.cpp">
+      <Filter>sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\network\SecureSocketObject.cpp">
+      <Filter>sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\network\Socket.cpp">
+      <Filter>sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\network\SocketObject.cpp">
+      <Filter>sdk\network</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\network\SocketOption.cpp">
+      <Filter>sdk\network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SecureServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pcout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\general\BaseException.h">
+      <Filter>sdk\general</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\general\SocketException.h">
+      <Filter>sdk\general</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\network\SecureSocket.h">
+      <Filter>sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\network\SecureSocketObject.h">
+      <Filter>sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\network\Socket.h">
+      <Filter>sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\network\SocketObject.h">
+      <Filter>sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\network\SocketOption.h">
+      <Filter>sdk\network</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\network\version.h">
+      <Filter>sdk\network</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
